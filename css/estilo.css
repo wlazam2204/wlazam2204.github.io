@@ -72,7 +72,8 @@ button:hover{
 p{
     font-family: 'Verdana';
     font-size: 0.8em;
-    margin: 2%;
+    line-height: 30px;
+    margin: 8%;
     text-align: justify;
     display: none;
 }
