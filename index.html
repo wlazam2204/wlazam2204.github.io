@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferencia</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/codigo.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>MONTO A TRANSFERIR</h1>
+    </header>
+
+    <section>
+        
+        <div>
+            <label for="caja1">Saldo actual</label>
+            <input  id="caja1">
+        </div>
+
+        <div>
+            <label for="caja2">Saldo a dejar</label>
+            <input  id="caja2">
+        </div>
+
+        <div>
+            <label for="caja3">Tasa de la comisión</label>
+            <input  id="caja3">
+        </div>
+
+        <div class="boton">
+            <button onclick="calculos()">Calcular</button>
+        </div>
+
+        <p id="parrafo">
+            Para obtener un Saldo Final de <b id="sf"></b> Unidades Monetarias, se deberá realizar una Transferencia de <b id="t"></b> Unidades Monetarias. Se aplicará una Tasa del <b id="ts"></b> generando el cobro de una comisión de <b id="c"></b> Unidades Monetarias.
+        </p>
+
+    </section>
+
+    <footer>
+    
+    </footer>
+    
+</body>
+</html>
