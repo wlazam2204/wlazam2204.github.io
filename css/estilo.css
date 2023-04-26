@@ -22,7 +22,7 @@ nav a:hover{
     color: black;
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:720px){
     nav{
         flex-direction: column;
     }
