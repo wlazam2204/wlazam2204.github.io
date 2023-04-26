@@ -21,3 +21,9 @@ nav a:hover{
     background-color: yellow;
     color: black;
 }
+
+@media screen and (max-width:700px){
+    nav{
+        flex-direction: column;
+    }
+}
