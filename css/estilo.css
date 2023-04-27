@@ -1,0 +1,79 @@
+/* Reset css */
+    *{
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+        font-family: 'verdana';
+        font-weight: normal;
+        text-decoration: none;
+    }
+/* ----------------------------------- */
+
+
+/* Coontenedor flexible y que envuelve su contenido */
+    .flexible_y_envolvente{
+        display: flex;
+        flex-wrap: wrap;
+    }
+/* ----------------------------------------------------------- */
+
+body{
+    background-color: #F6F1E9;
+}
+
+header{
+    background-color: #FFD93D;
+    text-transform: uppercase;
+    font-family: 'Tahoma';
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+    padding: 1% 0%;
+}
+
+nav{
+    background-color: #454545;
+}
+
+nav a {
+    color: white;
+    padding: 1%;
+}
+
+nav a:hover{
+    background-color: #FF6000;
+}
+
+section{
+    margin: 1%;
+}
+
+section a{
+    padding: 1%;
+    margin: 0.5%;
+    list-style-type: none;
+    border: 1px solid gray;
+    border-left: 8px solid black;
+    border-radius: 0 5px 5px 0;
+}
+
+section a:hover{
+    border: none;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    background-color: #FFD93D;
+    text-transform: capitalize;
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width: 720px){
+    .flexible_y_envolvente{
+        flex-direction: column;
+    }    
+}
